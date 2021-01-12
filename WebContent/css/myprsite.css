@@ -1,0 +1,62 @@
+	/*
+		join_intro.jsp
+	*/
+	* {font-family:"³ª´®¹Ù¸¥°íµñ"; font-size:16px;}
+	body {background-color:rgb(245,245,245);}
+	button {border-radius:4px;}
+	body>section.join_intro>div {width:100%; text-align:center;}
+	section.join_intro img {width:300px; height:100px; padding-top:10px;}
+	section.join_intro span.green {color:rgb(79,123,240); font-weight:600;}
+	section.join_intro textarea {width:80%; height:100px;}
+	section.join_intro span.gray {color:gray; font-weight:600;}
+	section.join_intro p {width:600px; margin:auto; font-size:10px; color:gray;}
+	section.join_intro input.jchk { margin:20px; }
+	section.join_intro div.c5>button { width:200px; height:50px; margin-top:50px; }
+	section.join_intro button { color:white; font-weight:600; border:none; }
+	section.join_intro button.cancel { background-color:rgb(127,178,240);}
+	section.join_intro button.confirm { background-color:rgb(79,123,240); padding:14px 86px;}
+	section.join_intro img.logo {display:inline-block; width:400px; height:120px;}
+	section.join_intro div.c5>button>a {color:white; text-decoration:none;}
+	section.join_intro button.confirm:hover, section.join_intro button.cancel:hover {background-color:blue;}
+	section.join_intro textarea {border:none;}
+	/*
+		join.jsp
+	*/
+	
+	section.join>div>form {width:800px; margin-left:320px;}
+	section.join ul>li>div>label {font-weight:550; }
+		
+	section.join input[type="text"], section.join input[type="password"], section.join select {
+		height:27px; width:200px; margin-bottom:10px; border:none; text-indent:8px;} 	
+	
+	section.join input[type="text"].year {width:100px;}
+	
+	section.join select.month, section.join select.day {width:100px; height:30px;}
+	
+	section.join img.logo {display:inline-block; width:400px; height:120px;
+				padding:0 550px; }	
+	
+	section.join form {width:100%; margin:0 300px;}
+	
+	section.join button {background-color:rgb(79,123,240);
+			border:none;
+			height:30px;
+			color:white;
+			font-weight:600;
+			font-size:16px;
+			padding:5px 15px;
+			margin-left:10px;}
+			
+	section.join li {padding:10px 10px 0 250px; list-style-type:none;}
+	
+	section.join li>div { padding-bottom:10px; color:#333; font-weight:500; }
+	
+	section.join button:hover {background-color:blue;}
+	
+	section.join select.gender {width:120px;}
+ 	section.join input.hp {width:220px;}
+ 	
+	section.join span.red {color:red; font-weight:700; margin-right:3px;}
+	section.join span.gray {color:gray;}
+	
+	section.join button.register {margin-left:60px; width:160px; height:40px;} 
